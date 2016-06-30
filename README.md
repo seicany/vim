@@ -45,3 +45,16 @@ by seicany：
 1. 进入命令行模式，按ctrl + v进入 visual block模式（可视快模式），按小写字母L横向选中列的个数，例如 // 需要选中2列
 2. 按字母j，或者k选中注释符号
 3. 按d键就可全部取消注释
+
+
+
+
+vim-flake8:
+ autocmd BufWritePost *.py call Flake8()
+let g:flake8_show_in_file=1
+let g:flake8_show_quickfix=0
+let g:flake8_error_marker='EE'     " set error marker to 'EE'
+let g:flake8_warning_marker='WW'   " set warning marker to 'WW'
+let g:flake8_pyflake_marker=''     " disable PyFlakes warnings
+let g:flake8_complexity_marker=''  " disable McCabe complexity warnings
+let g:flake8_naming_marker=''      " disable naming warnings"
