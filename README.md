@@ -35,7 +35,7 @@
 [`update_log.md`](update_log.md)
 
 by seicany：
-
+#===================#
 多行注释：
 1. 进入命令行模式，按ctrl + v进入 visual block模式（可视快模式），然后按j, 或者k选中多行，把需要注释的行标记起来
 2. 按大写字母i，再插入注释符，例如//
@@ -48,7 +48,7 @@ by seicany：
 
 
 
-
+#===================#
 vim-flake8:
  autocmd BufWritePost *.py call Flake8()
 let g:flake8_show_in_file=1
@@ -58,3 +58,8 @@ let g:flake8_warning_marker='WW'   " set warning marker to 'WW'
 let g:flake8_pyflake_marker=''     " disable PyFlakes warnings
 let g:flake8_complexity_marker=''  " disable McCabe complexity warnings
 let g:flake8_naming_marker=''      " disable naming warnings"
+
+
+
+#===================#
+The-NERD-Commenter  :   \cc (去掉注释 \cu)
