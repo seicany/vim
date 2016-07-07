@@ -63,3 +63,16 @@ let g:flake8_naming_marker=''      " disable naming warnings"
 
 #===================#
 The-NERD-Commenter  :   \cc (去掉注释 \cu)
+
+
+#===================#
+
+ctags  -R 设置好了tags文件，在定位变量/函数的定义时，最常用的快捷键是：
+Ctrl + ]
+跳转到变量或函数的定义处，或者用命令
+:ta name
+而使用快捷组合键
+Ctrl + o/t 
+返回到跳转前的位置。
+
+另外，ctags不会生成局部变量的索引，不过可以使用gd组合键（对光标所在处的word进行快捷查找定位）来定位，也是相当快捷的。
